@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+body{
+    color:#241f1f;
+}
+img.img-fluid.mx-auto.logo {
+    width: 120px; 
+}
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #e9922f;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FEFEFE;
+}
+li.nav-item {
+    padding: 15px;
+}
+span.carousel-control-next-icon {
+    background-color: #323232;
+    padding: 20px !important;
+}
+span.carousel-control-prev-icon {
+    background-color: #323232;
+    padding: 20px !important;
+}
+.item_introtext {
+    background-color: rgba(254, 254, 255, 0.66);
+    margin: 0 auto;
+    width: 100% !important;
+    display: inline-block;
+    padding: 25px;
+}
+ 
+  .item_introtext h1 {
+    font-family: ui-sans-serif;
+    font-weight: 900;
+     color: #242121 !important;
+     letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;
+    }
+    .item_introtext p {
+        font-size: 20px;
+        margin: 0 0 15px;
+        color: #242121 !important;
+        font-weight: 700;
+        font-family: ui-sans-serif;
+    } 
+    /* ***********************slider end*********************** */
+    section.callaction {
+        background:#fff;
+        padding:50px 0 0 0;
+    }
+    .aligncenter h1{
+        text-align:center;
+        font-family: ui-sans-serif;
+    }
+    .aligncenter p{
+        text-align:center;
+        font-family: ui-sans-serif;
+        font-size: 18px;
+    }
+    span.icons {
+        font-size: 80px;
+        text-align: center;
+        color: white;
+    }
+    h5.card-title{
+        color: #323232;
+    }
+    p.card-text{
+        color: #323232;
+    }
+    /* <!-- ***********************callaction end*********************** --> */
+    .Blanditiis{
+        margin-top: 60px;
+    }
+    /* <!-- ***********************sub slider start*********************** --> */
+    section.sub_slider {
+        background-color: #EFEFEF;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    .service_text h4 {
+        font-family: ui-sans-serif;
+        color: #605c5c;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .service_text p {
+        font-family: ui-sans-serif;
+        color: #605c5c;
+        text-align: center;
+        padding: 15px;
+    }
+
+    
+    /* ***********************Services  end*********************** */
+    section#From { 
+        padding: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-image: url(../images/contackimg.png);
+    }
+    .information{
+        background-color: #263D73;
+        padding-top: 15px;
+        width: 100% !important;
+    }
+    /* ***********************contact  end*********************** */
+
+ .text-center{
+    color: #EFEFEF;
+    font-family: ui-sans-serif;
+    padding-bottom: 20px;
+ }
+ section.footer {
+    background-color: #e9922f;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.font_icon{
+    text-align: end; 
+}
+.font_icon a{
+    color: #e2d8d8;
+}
+.Above{
+    color: #e2d8d8;
+}
+ 
+.con_information{
+    display: flex;   
+}
+.font{
+    text-align: center; 
+}
+.fa.fa-phone-square{
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+.fa.fa-envelope-square{
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+.fa.fa-google-plus-circle{
+    font-size: 35px;
+    margin-left: 40px;
+
+}
+    /* ***********************footer  end***********************  */
+    /* ***********************main about page  start***********************  */
+    /* ************************about us start***********************  */
+    #inner-headline{
+        background: #29A6DC;
+        position:relative;
+        margin:0;
+        padding:0;
+        color:#fefefe; 
+        /* border-top: 10px solid #11967C; */
+    } 
+    #inner-headline .inner-heading h2 {
+        color:#fff;
+        margin:20px 0 0 0;
+    }
+    .Choose_us p {
+        color: #605c5c;
+        font-family: system-ui;
+        padding-bottom: 20px;
+    }
+    .Choose_us h1 {
+        color: #605c5c;
+        font-family: system-ui;
+        padding-bottom: 20px;
+    }
+    /* .expertise h2 {
+        color: #605c5c;
+        font-family: system-ui;
+        padding-bottom: 20px;
+    } */
+    /* ************************about us  end***********************  */
+    /* *************************TEAM start***********************  */
+    .weare h1 {
+        margin-top: 50px;
+        color: #605c5c;
+        font-family: system-ui;
+    }
+    .weare p {
+        margin-top: 17px;
+        color: #605c5c;
+        font-family: system-ui;
+    }
+
+    /* *************************TEAM end***********************  */
+    /* *************************TEAM us start***********************  */
+    .aboutus p{ 
+        color: #605c5c;
+        font-family: ui-sans-serif;
+    }
+  
+    .font_text {
+        padding: 4px;
+    }
+    .progress .progress-bar.progress-bar-red {
+        background: #ed5441;
+    }
+    .progress .progress-bar.progress-bar-green {
+        background: #51d466;
+    }
+    .progress .progress-bar.progress-bar-lblue {
+        background: #32c8de;
+    }
+    .progress-bar {
+        float: left;
+        width: 0;
+        height: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        color: #fff;
+        text-align: center;
+        background-color: #428bca;
+        -webkit-box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+        box-shadow: inset 0 -1px 0 rgb(0 0 0 / 15%);
+        -webkit-transition: width .6s ease;
+        transition: width .6s ease;
+    }
+    section#expertise {
+        padding: 50px;
+    }
+    .Choose_us h1 {
+        padding-bottom: 20px;
+    }
+    .block-heading-two h3 {
+        color: #605c5c;
+        font-family: system-ui;
+        padding-top: 10px;
+        padding-bottom: 25px;
+    }
+    .main_progress h6 {
+        padding-bottom: 14px;
+    }
+    .sub_text h3,h4{
+        margin-bottom: 25px;
+        text-align: center;
+        color: #605c5c;
+        margin-top: 20px;
+    }
+    section#team h1 { 
+        margin-bottom: 30px;
+        color: #605c5c;
+        font-family: system-ui;
+    }
+    /* *************************Courses start***********************  */
+    .pageTitle {
+        color: #fff;
+        margin: 30px 0 30px;
+        display: inline-block;
+    }
+         /* *************************Courses end***********************   */
+ 
+    /* ***********************main about page  end***********************  */
+    /* **********************portfolio page  start***********************  */
+    .back-img{ 
+        background: url(../images/education_header.jfif) no-repeat;
+        max-height: 100%;
+        background-position: center;
+        padding-bottom: 287px; 
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    h3.EDUCATION {
+        padding-top: 250px;
+        color: white;
+        font-family: sans-serif;
+    }
+    h5.Endless {
+        color: white;
+        font-family: sans-serif;
+    }
+    button.Visit:hover{
+        background-color: #E2463B;
+        color: aliceblue;
+    }
+    button.Visit {   
+    font-size: 22px;
+    padding: 20px 20px;
+    border: none;
+    margin-top: 22px;
+    color: red;
+    border: 1px solid white;
+    background: transparent; 
+    }
+    /* *****************************OUR GLOBAL start************************************    */
+section#global{  
+    /* background-color: #29A6DC; */ 
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+section#global p{
+    color: rgb(20, 19, 19);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+h1.GLOBAL {
+    color: #605c5c;
+    font-weight: bolder;
+    font-family: sans-serif; 
+}
+h4.Choose {
+    color: #605c5c;
+    font-weight: bold;
+    padding-bottom: 33px;
+    margin-top: 20px; 
+    font-family: sans-serif;
+}
+.OUR{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  .OUR.img-fluid.rounded{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+ .overlay:hover {
+    background: rgba(226, 0, 0, 0.7);
+  }
+
+  .overlay h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.overlay:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+section#ourfacilities h1 {
+    text-align: center;
+    color: #605c5c;
+    font-family: ui-sans-serif;
+    margin-top: 30px;
+}
+section#ourfacilities p {
+    text-align: center;
+    color: #605c5c;
+    font-family: ui-sans-serif;
+    margin-top: 30px;
+}
+.world_class h3 {
+    text-align: center;
+     color: #605c5c;
+    font-family: ui-sans-serif;
+    margin-top: 20px;
+}
+.world_class h6 {
+    text-align: center;
+     color: #605c5c;
+    font-family: ui-sans-serif;
+    margin-top: 20px;
+}
+/* *****************************OUR GLOBAL end************************************ */
+    /* **********************portfolio page  end***********************  */
+    /* **********************Course page  start***********************  */
+    section#CoursesOffer h2 {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+        margin-top: 20px;
+    }
+    section#CoursesOffer h5 {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+    section#CoursesOffer p {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+        margin-top: 20px;
+    }
+    .textbox {
+        background-color: #EFEFEF;
+        padding: 25px;
+        margin-bottom: 25px;
+        border-radius: 10px;
+    }
+    .textbox h3 {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+    }
+    .offer_start h2 {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+        margin-top: 20px; 
+    }
+    .offer_start p {
+        color: #605c5c;
+        font-family: ui-sans-serif;
+        margin-top: 15px; 
+    }
+    /* **********************Course page  end***********************  */
